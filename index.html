@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.">
+	<title>Test</title>
+</head>
+<style>
+	.flex-root {
+		margin: 0;
+		flex-direction: column;
+		display: flex;
+		height: 100vh;
+	}
+
+	body {
+		margin: 0;
+	}
+
+	header {
+		margin: 0;
+		display: flex;
+		background-color: pink;
+		height: 50px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	main {
+		overflow-y: auto;
+		flex: 1;
+	}
+
+	.content {
+		height: 200vh;
+	}
+</style>
+<body>
+	<div class="flex-root">
+		<header>
+			<h2 style="margin: 0; margin-bottom: .25em;">！</h2>
+		</header>
+		<main>
+			<div class="content" style="padding: 5px;">。</div>
+		</main>
+	</div>
+</body>
